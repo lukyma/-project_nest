@@ -10,7 +10,7 @@ exports.PortifolioService = void 0;
 const common_1 = require("@nestjs/common");
 let PortifolioService = class PortifolioService {
     findAll() {
-        return 'Teste Portifolio Service';
+        return 'Meu nome é Lucas!!! ;)';
     }
 };
 PortifolioService = __decorate([

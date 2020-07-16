@@ -27,7 +27,7 @@ __decorate([
     __metadata("design:returntype", String)
 ], PortifolioController.prototype, "findAll", null);
 PortifolioController = __decorate([
-    common_1.Controller('portifolio'),
+    common_1.Controller('portifolio/lucas'),
     __metadata("design:paramtypes", [portifolio_service_1.PortifolioService])
 ], PortifolioController);
 exports.PortifolioController = PortifolioController;

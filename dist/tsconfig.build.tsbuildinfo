@@ -1162,12 +1162,12 @@
         "affectsGlobalScope": false
       },
       "../src/portifolio/portifolio.service.ts": {
-        "version": "d82320654661cbfb766b1ba9397769d3ba3ee8e94f836c8bca2dfe9d31e04773",
+        "version": "00fd03aea8270c1c1f97427bb132f052918b02097d19025e42234a192c2a05c2",
         "signature": "683a8b15d47f4a2856005343fbcd09284148d92f9916f7914f2bf3ce7c90c412",
         "affectsGlobalScope": false
       },
       "../src/portifolio/portifolio.controller.ts": {
-        "version": "85d2fa924dbd5e494fe13108b23bf8f57589f10b4b0aeb000dda94d60e6a5d6c",
+        "version": "a8a99656242697e2cc249cf30bb771cf01f712aebf0140dfe3a249376094e7af",
         "signature": "3706c53371af06feaec4111cd6cb10b7614878e678aeb19830d6d23d396cc9e3",
         "affectsGlobalScope": false
       },
@@ -1176,8 +1176,23 @@
         "signature": "93f065bd7015758b193ff15e98cdc1f0b79ce3333f3dcf02faa367a68fdb427a",
         "affectsGlobalScope": false
       },
+      "../src/portifolio/portifoliosidney.service.ts": {
+        "version": "0c5459867f1fb0bfe3f698deaa1114295a4c3246a7a0b0d12821225b5b763a55",
+        "signature": "2e7dcba77d602f06fb69caac13e092b32e13120f940e82d12f4b972ceaba5ea2",
+        "affectsGlobalScope": false
+      },
+      "../src/portifolio/portifoliosidney.controller.ts": {
+        "version": "bce7e0105ed54e3fa04ac09bd7926ee91d059318242db544df0f5339b5fe7e31",
+        "signature": "af3475fcd063a4ceb03460f66938fdcecccf24724a8413984ad229e3c16cf25f",
+        "affectsGlobalScope": false
+      },
+      "../src/portifolio/portifoliosidney.module.ts": {
+        "version": "152ad1cd0afe745ef77104f1ec84e7782ad223d353baa414137190bcc49d1e60",
+        "signature": "94ea3492a2d1cd99367cb69bea347a704b51c4711071048390941b48d33b5fc0",
+        "affectsGlobalScope": false
+      },
       "../src/app.module.ts": {
-        "version": "3ab0a15cb92dbde2b99a7a8954d31c544503b07681bb5e77c592b6a42ad3551c",
+        "version": "ac1df34702d895b19993e98539c1e4fd9d9b4971c2a35f762d8d2032231649fb",
         "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88",
         "affectsGlobalScope": false
       },
@@ -5164,7 +5179,8 @@
         "../node_modules/@types/node/util.d.ts",
         "../src/app.controller.ts",
         "../src/app.service.ts",
-        "../src/portifolio/portifolio.module.ts"
+        "../src/portifolio/portifolio.module.ts",
+        "../src/portifolio/portifoliosidney.module.ts"
       ],
       "../src/app.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -5203,6 +5219,33 @@
         "../src/portifolio/portifolio.service.ts"
       ],
       "../src/portifolio/portifolio.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/portifolio/portifoliosidney.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/portifolio/portifoliosidney.service.ts"
+      ],
+      "../src/portifolio/portifoliosidney.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/portifolio/portifoliosidney.controller.ts",
+        "../src/portifolio/portifoliosidney.service.ts"
+      ],
+      "../src/portifolio/portifoliosidney.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -8481,6 +8524,9 @@
       ],
       "../src/portifolio/portifolio.controller.ts": [
         "../src/portifolio/portifolio.service.ts"
+      ],
+      "../src/portifolio/portifoliosidney.controller.ts": [
+        "../src/portifolio/portifoliosidney.service.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -8856,7 +8902,10 @@
       "../src/main.ts",
       "../src/portifolio/portifolio.controller.ts",
       "../src/portifolio/portifolio.module.ts",
-      "../src/portifolio/portifolio.service.ts"
+      "../src/portifolio/portifolio.service.ts",
+      "../src/portifolio/portifoliosidney.controller.ts",
+      "../src/portifolio/portifoliosidney.module.ts",
+      "../src/portifolio/portifoliosidney.service.ts"
     ]
   },
   "version": "3.9.6"
